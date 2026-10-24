@@ -1,0 +1,4 @@
+model,CV macro-F1,CV std,test accuracy,test precision (macro),test recall (macro),test macro-F1,train macro-F1
+1 baseline (BASE_PARAMS),0.752,0.013,0.769,0.78,0.699,0.727,0.996
+2 early-stopping (FINAL_PARAMS),0.739,0.025,0.769,0.808,0.708,0.743,0.98
+3 Optuna (TPE),0.752,0.018,0.752,0.79,0.687,0.718,0.992
